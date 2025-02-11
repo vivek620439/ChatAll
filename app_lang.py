@@ -5,7 +5,7 @@ from langchain_groq import ChatGroq
 
 
 # Set your API key (Ensure this is set in your environment variables)
-groq_api_key = "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"  # Set this in your system before running
+groq_api_key = "Your API KEYS" # Set this in your system before running
 
 # Initialize Groq LLM
 llm = ChatGroq(api_key=groq_api_key, model_name="mixtral-8x7b-32768")  # Ensure model name is correct
